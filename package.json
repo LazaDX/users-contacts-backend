@@ -1,0 +1,28 @@
+{
+  "name": "contacts-backend",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Laza",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongodb": "^7.0.0",
+    "mongoose": "^9.1.2",
+    "mongose": "^0.0.2-security"
+  },
+  "devDependencies": {
+    "@types/mongoose": "^5.11.96",
+    "nodemon": "^3.1.11"
+  }
+}
